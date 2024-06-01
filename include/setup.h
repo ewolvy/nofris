@@ -2,7 +2,7 @@
 
 #define setup_h
 
-#include "i2cscan.h"
+// #include "i2cscan.h"
 #include "sensor.h"
 
 // Definiciones del multiplexor I2C
