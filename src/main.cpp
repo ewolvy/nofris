@@ -11,14 +11,11 @@ void setup()
 
 void loop()
 {
-  // put your main code here, to run repeatedly:
-  void loop()
-  {
-    // put your main code here, hola juanjo:
-  }
+  // put your main code here, hola juanjo:
+}
 
-  // put function definitions here:
-  int myFunction(int x, int y)
-  {
-    return x + y;
-  }
+// put function definitions here:
+int myFunction(int x, int y)
+{
+  return x + y;
+}
