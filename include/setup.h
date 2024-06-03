@@ -3,7 +3,9 @@
 #define setup_h
 
 // #include "i2cscan.h"
-#include "sensor.h"
+
+#include <VL6180X.h>
+#include <ESP32Encoder.h>
 
 // Definiciones del multiplexor I2C
 #define TCAADDR 0x70
