@@ -42,7 +42,7 @@ void loop()
 
 }
 
-boole initSensors (){
+boolean initSensors (){
   return 0;
 }
 void calibration (){
@@ -54,7 +54,7 @@ void testSensors (){
 void generateMaze (uint8_t dimX, uint8_t dimY, uint8_t golalX, uint8_t golalY){
 
 }
-boole scout (uint16_t timeLimit){
+boolean scout (uint16_t timeLimit){
   return 0;  
 
 }
