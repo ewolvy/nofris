@@ -41,4 +41,14 @@
 #define RIGHT_MOTOR_REV_CH 2
 #define RIGHT_MOTOR_FWD_CH 3
 
+// Definiciones para los estados de ejecución
+#define ESTADO_INIT_SENSORS 0
+#define ESTADO_CALIBRATION 1
+#define ESTADO_TEST_SENSORS 2
+#define ESTADO_WAIT 3
+#define ESTADO_GENERATE_MAZE 4
+#define ESTADO_SCOUT 5
+#define ESTADO_READY_4_RUN 6
+#define ESTADO_RUN 7
+
 #endif

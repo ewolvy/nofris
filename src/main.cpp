@@ -6,7 +6,7 @@ uint8_t maze[16][16][2]; // las 2 primeras dimensiones son referentes a la ubica
                            // 01 = no visitada, pero no se necesita revisar (pared virtual).
                            // 10 = revisada, no hay pared.
                            // 11 = revisada, si hay pared.
-                           // el segundo byte de la 3 dimensión es donde se guardarán los pesos del algoritmo del flood fill
+                           // El segundo byte de la 3 dimensión es donde se guardarán los pesos del algoritmo del flood fill
 
 //variables referentes a la posición del mouse
 uint8_t currentPositionMazeX [] = {0, 0, 0}; // indica la posicion dentro del laberinto [X,Y, orientación] La orientación indica hacia donde miraba el robot cuando entra en la celda.
@@ -42,4 +42,22 @@ void loop()
 
 }
 
+boole initSensors (){
+  return 0;
+}
+void calibration (){
 
+}
+void testSensors (){
+
+}
+void generateMaze (uint8_t dimX, uint8_t dimY, uint8_t golalX, uint8_t golalY){
+
+}
+boole scout (uint16_t timeLimit){
+  return 0;  
+
+}
+void run(){
+
+}
