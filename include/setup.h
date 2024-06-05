@@ -51,4 +51,14 @@
 #define ESTADO_READY_4_RUN 6
 #define ESTADO_RUN 7
 
+// Definiciones de LOS PID
+// hay diferentes perfiles de PID de la velocidad angular para diferentes curvas
+#define KPX 2// D de la la velocidad lineal
+#define KDX 4// D de la la velocidad lineal
+#define KPW 1 // P de la velocidad angular en recta
+#define KDW 12 // D de la velocidad angular en recta
+
+//kpW1 = 1, kdW1 = 26;//usado en T1 y T3 en curva asi es como lo tiene green ye  de momento solo tendremos 2 kp el lineal y el angular
+//kpW2 = 1, kdW2 = 36;//usado en T2 en curva asi es como lo tiene green ye  de momento solo tendremos 2 kp el lineal y el angular
+
 #endif
